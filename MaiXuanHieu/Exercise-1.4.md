@@ -1,5 +1,5 @@
-// a)
-
+a)
+```
 import java.util.Vector;
 
 public class Ex4 {
@@ -9,6 +9,7 @@ public class Ex4 {
         c.addAll(b);
         return c;
     }
+    
     public static void main(String[] args){
         Vector a = new Vector();
         a.add(4);
@@ -17,11 +18,11 @@ public class Ex4 {
         Vector c = union(a,b);
     }
 }
+```
+b)  There will be fault when the value one of the two vector or even both vector are Null
 
-// b)
-// There will be fault when the value one of the two vector or even both vector are Null
-
-// c)
+c)
+```
 public class Ex4 {
     public static Vector union(Vector a, Vector b) {
         Vector c = new Vector();
@@ -37,8 +38,9 @@ public class Ex4 {
         Vector c = union(a, b);
     }
 }
-
-// d)
+```
+d)
+```
 public class Ex4 {
     public static Vector union(Vector a, Vector b) {
         if (a.isEmpty()) {
@@ -61,3 +63,4 @@ public class Ex4 {
         Vector c = union(a, b);
     }
 }
+```
