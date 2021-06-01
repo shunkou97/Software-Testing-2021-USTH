@@ -1,5 +1,7 @@
-import java.util.Vector;
 // a)
+
+import java.util.Vector;
+
 public class Ex4 {
     public static Vector union (Vector a, Vector b){
         Vector c = new Vector();
