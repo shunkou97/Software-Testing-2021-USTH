@@ -1,4 +1,4 @@
-## All 16 tests to satisfy Multiple Base Choice coverage: 
+## All 16 tests to satisfy Multiple Base Choice coverage are: 
 ```
 (2, 2, 2), (0, 2, 2), (−1, 2, 2), (2, 1, 2)
 (2, 0, 2), (2, −1, 2), (2, 2, 1), (2, 2, 0)
