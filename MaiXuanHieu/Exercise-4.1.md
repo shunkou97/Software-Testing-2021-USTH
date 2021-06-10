@@ -31,29 +31,29 @@ public class CalcTest {
   float result;
   
   public CalcTest(int a, int b, float result) {
-    a = 16;
+    a = 9;
     b = 4;
     this.result = result;
    }
   
   @Test
   public void testAdd() {
-        assertEquals(Calc.add(a, b), 20);
+        assertEquals(Calc.add(a, b), 13);
     }
     
   @Test
   public void testMinus() {
-        assertEquals(Calc.sub(a, b), 12);
+        assertEquals(Calc.sub(a, b), 5);
     }
 
   @Test
   public void testMultiply() {
-        assertEquals(Calc.multi(a, b), 64);
+        assertEquals(Calc.multi(a, b), 36);
     }
 
   @Test
   public void testDivide() {
-        assertEquals(Calc.div(a, b), 4, 0.25);
+        assertEquals(Calc.div(a, b), 2.25);
     }
 }
 ```
