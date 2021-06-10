@@ -1,4 +1,4 @@
-'''
+```
 import junit.framework.*;
 
 import org.junit.Test;
