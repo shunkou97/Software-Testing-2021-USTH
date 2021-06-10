@@ -1,0 +1,2 @@
+- On "**Where Made**" there should be an "**other**" option added in.
+- On "**Size**" both "**2-door**" and "**4-door**" could be "**hatch back**", so we should combine "**hatch back**" into "**2-door**" and "**4-door**". As the result will be: "**2-door with hatch-back**" and "**4-door with hatch-back**"
