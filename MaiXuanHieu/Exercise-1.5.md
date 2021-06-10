@@ -83,7 +83,7 @@ Complete state is after execution of i++ but right before the count++.
 a) According to the program, it will takes 0 as a positive value.
 
 Modification: 
-'''
+
 	if(x[i] > 0)
 	{
   	 count++;
@@ -93,7 +93,6 @@ Modification:
   	if (x[i]%2 ==1 ) 
 	 count++;
 	}
-'''
 
 b) Test case:
 
